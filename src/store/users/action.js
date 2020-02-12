@@ -1,5 +1,7 @@
 import request from "superagent";
-const baseUrl = "http://localhost:4000";
+//const baseUrl = "http://localhost:4000";
+const baseUrl =
+  "https://brian-imageboard-server.herokuapp.com" || "http://localhost:4000";
 
 export const LOG_IN = "LOG_IN";
 

@@ -7,7 +7,6 @@ class ListContainer extends React.Component {
     this.props.getImages();
   }
   render() {
-    console.log("this.props", this.props);
     return (
       <ul>
         {this.props.images &&
